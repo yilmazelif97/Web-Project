@@ -1,0 +1,72 @@
+body{
+
+background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(o.jpg); /* Resmin rengini koyulaştırmak için*/
+height: 100vh;
+background-size: cover; /*Tüm kabı kaplayacak şekilde resmi yeniden boyutlandırır*/
+background-position: center;  
+
+}
+
+/*Form Özellikleri*/
+
+form{
+
+	width: 320px;
+	position: absolute; /* Dynamic posiiton, sadece eleman pozisyonunu hareket ettirir*/
+	bottom: 20%;
+	right: 40%;
+	background: #567533;
+	margin: 0 auto 100px ;
+	padding: 45px;
+	text-align: center;
+
+}
+
+/*İnput Özellikleri */
+
+form input{
+
+	font-family: "Roboto", sans-serif;
+	background: #f2f2f2;
+	width: 90%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	font-size: 14px;
+
+
+}
+
+form button{
+
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase; /*Tüm harfleri büyük harflere çevirir */
+	background: #4CAF50;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	color: #ffffff;
+	font-size: 14px;
+	cursor: pointer;
+
+}
+
+form button:hover, .form button:active{  /* iki kez değişir yaklşaırsak + tıklarsak */
+	background: #43A047;
+
+}
+
+/* Message özellikleri */
+
+form.message{
+	margin: 15px 0 0;
+	color: aliceblue;
+	font-size: 12px;
+
+}
+.a{
+
+	color: blue;
+	font-size: 56px;
+}
